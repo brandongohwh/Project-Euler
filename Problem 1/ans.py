@@ -1,0 +1,1 @@
+print("Sum of multiples of 3 OR 5 below 1000:",sum([x for x in range(1000) if (not x%3) or (not x%5)]))
