@@ -11,4 +11,4 @@ for i in range((len(x)-2)):
             diff2=x[k]-x[j]
             if diff1==diff2:
                 if str(x[k]) in tc and str(x[j]) in tc:
-                    print("(%d, %d, %d)\n"% (x[i],x[j],x[k]))
+                    print("Concatenation of: (%d, %d, %d)\n"% (x[i],x[j],x[k]))
